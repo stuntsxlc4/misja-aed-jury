@@ -1,0 +1,36 @@
+{
+  "title": "Misja AED – lokalizacje defibrylatorów w Polsce",
+  "description": "Zbiór demonstracyjny. Współrzędne WGS84 (EPSG:4326). Godziny i zasady dostępu podano, gdy określił je wydawca. Data pobrania nie jest datą kontroli urządzeń.",
+  "imported": "2026-11-19",
+  "records": 18272,
+  "matched": 14,
+  "sources": [
+    {
+      "id": "osm",
+      "publisher": "© OpenStreetMap contributors, OpenAEDMap",
+      "url": "https://openaedmap.org/api/v1/countries/PL.geojson",
+      "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "records": 18265
+    },
+    {
+      "id": "przemysl",
+      "publisher": "Straż Miejska w Przemyślu, Otwarte Dane Przemyśl",
+      "url": "https://dane.przemysl.eu/zasoby-danych/defibrylatory-aed-na-terenie-miasta-przemysla/",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "records": 21
+    }
+  ],
+  "transformations": "Normalizacja do punktów WGS84 i wspólnych pól, wybór pól oryginalnych, scalenie ręcznie zestawionych identyfikatorów. Geometria scalonego punktu pochodzi z OSM. Pozostawiono odrębne rekordy w przypadku wątpliwości.",
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors (ODbL 1.0), Straż Miejska w Przemyślu (CC BY 4.0). Nazwy dostawców i odnośniki zachowano w katalogu. Zdjęcia podlegają warunkom poszczególnych autorów.",
+  "resources": [
+    {
+      "format": "GeoJSON",
+      "path": "aed-polska.geojson"
+    },
+    {
+      "format": "CSV",
+      "path": "aed-polska.csv"
+    }
+  ]
+}

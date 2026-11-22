@@ -1,0 +1,18 @@
+Mapa Śródmieścia — własny rendering na podstawie danych © OpenStreetMap contributors (ODbL 1.0).
+https://www.openstreetmap.org/copyright
+Źródło geometrii: https://api.openstreetmap.org/api/0.6/map.json?bbox=21.0055,52.2275,21.022,52.236
+Trasa piesza — OSRM / FOSSGIS, dane OpenStreetMap.
+https://routing.openstreetmap.de/about.html
+
+chmielna-wejscie.jpg — Cybularny, „2026 Warszawa Kamienica Jabłkowskich, 5”, CC0.
+https://commons.wikimedia.org/?curid=199081043
+https://creativecommons.org/publicdomain/zero/1.0/
+chmielna-brama.jpg — Cybularny, „2026 Warszawa Dom i Kamienica Jabłkowskich, podwórko z muralem, 1”, CC BY 4.0.
+https://commons.wikimedia.org/?curid=199080241
+chmielna-pasaz.jpg — Cybularny, „2026 Warszawa Dom i Kamienica Jabłkowskich, podwórko z muralem, 8”, CC BY 4.0.
+https://commons.wikimedia.org/?curid=199080251
+https://creativecommons.org/licenses/by/4.0/
+W aplikacji fotografie przeskalowano do rozmiaru karty i wykadrowano na ekranie.
+bracia-aed.webp — fotografia defibrylatora z OpenAEDMap, oznaczona CC0 w rekordzie.
+https://openaedmap.org/api/v1/photos/view/Y5VVR9cWrjzvZcowm_R7lw.webp
+https://www.openstreetmap.org/node/14154384101

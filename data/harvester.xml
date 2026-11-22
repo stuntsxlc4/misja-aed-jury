@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<od:datasets xmlns:od="urn:otwarte-dane:harvester:1.13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:otwarte-dane:harvester:1.13 https://dane.gov.pl/static/xml/xml_import_otwarte_dane_1_13.xsd">
+  <dataset>
+    <extIdent>misja-aed-polska</extIdent>
+    <title>
+      <polish>Misja AED – lokalizacje defibrylatorów w Polsce</polish>
+    </title>
+    <description>
+      <polish>Zbiór demonstracyjny. Współrzędne WGS84 (EPSG:4326). Godziny i zasady dostępu podano, gdy określił je wydawca. Data pobrania nie jest datą kontroli urządzeń. Normalizacja do punktów WGS84 i wspólnych pól, wybór pól oryginalnych, scalenie ręcznie zestawionych identyfikatorów. Geometria scalonego punktu pochodzi z OSM. Pozostawiono odrębne rekordy w przypadku wątpliwości.</polish>
+    </description>
+    <url>https://pawelkonior.github.io/misja-aed-jury/data/catalog.json</url>
+    <updateFrequency>irregular</updateFrequency>
+    <categories>
+      <category>HEAL</category>
+    </categories>
+    <conditions>
+      <source>true</source>
+      <modification>true</modification>
+      <dbOrCopyrighted>© OpenStreetMap contributors (ODbL 1.0), Straż Miejska w Przemyślu (CC BY 4.0). Nazwy dostawców i odnośniki zachowano w katalogu. Zdjęcia podlegają warunkom poszczególnych autorów. https://opendatacommons.org/licenses/odbl/1-0/</dbOrCopyrighted>
+    </conditions>
+    <resources>
+      <resource>
+        <extIdent>misja-aed-pl-geojson</extIdent>
+        <url>https://pawelkonior.github.io/misja-aed-jury/data/aed-polska.geojson</url>
+        <title>
+          <polish>Lokalizacje AED w Polsce (GeoJSON)</polish>
+        </title>
+        <description>
+          <polish>18272 rekordów. Współrzędne WGS84, opis lokalizacji, warunki dostępu i źródło. Stan eksportu na 2026-11-19.</polish>
+        </description>
+        <availability>remote</availability>
+        <dataDate>2026-11-19</dataDate>
+      </resource>
+      <resource>
+        <extIdent>misja-aed-pl-csv</extIdent>
+        <url>https://pawelkonior.github.io/misja-aed-jury/data/aed-polska.csv</url>
+        <title>
+          <polish>Lokalizacje AED w Polsce (CSV)</polish>
+        </title>
+        <description>
+          <polish>18272 rekordów. Współrzędne WGS84, opis lokalizacji, warunki dostępu i źródło. Stan eksportu na 2026-11-19.</polish>
+        </description>
+        <availability>remote</availability>
+        <dataDate>2026-11-19</dataDate>
+      </resource>
+    </resources>
+    <tags>
+      <tag lang="pl">AED</tag>
+      <tag lang="pl">defibrylator</tag>
+      <tag lang="pl">pierwsza pomoc</tag>
+      <tag lang="pl">Polska</tag>
+    </tags>
+  </dataset>
+</od:datasets>

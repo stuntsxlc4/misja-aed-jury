@@ -1,0 +1,5 @@
+vosk-model-small-pl-0.22, Alpha Cephei, Apache License 2.0.
+Model list and license: https://alphacephei.com/vosk/models
+Upstream archive: https://alphacephei.com/vosk/models/vosk-model-small-pl-0.22.zip
+SHA-256 (upstream ZIP): c4cd16498ea544f446f9e9a55cbd602b71cfe5a2b6f2b0834d81e1b6fce15f0d
+Distribution change: the original contents were repackaged from ZIP into gzip-compressed tar.
