@@ -1,0 +1,114 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "demo": true,
+    "source_count": 2,
+    "record_count": 3
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "DEMO-AED-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0801,
+          52.2401
+        ]
+      },
+      "properties": {
+        "name": "DEMO – Punkt wspólny",
+        "address": "Adres fikcyjny A",
+        "description": "Po lewej stronie wejścia",
+        "access": "public",
+        "hours": "24/7",
+        "status": "operational",
+        "verified": "2026-11-19",
+        "source": "demo-transport-testowy",
+        "source_url": "http://127.0.0.1:8790/resources/40208,demo-transport-testowy-aed-w-csv",
+        "provenance": [
+          {
+            "provider_id": "demo-transport-testowy",
+            "provider_name": "DEMO – Transport Testowy",
+            "resource_id": "40208",
+            "source_url": "http://127.0.0.1:8790/resources/40208,demo-transport-testowy-aed-w-csv",
+            "verified": "2026-11-19",
+            "status": "operational"
+          },
+          {
+            "provider_id": "demo-gmina-testowa",
+            "provider_name": "DEMO – Gmina Testowa",
+            "resource_id": "40207",
+            "source_url": "http://127.0.0.1:8790/resources/40207,demo-gmina-testowa-aed-w-csv",
+            "verified": "2026-11-18",
+            "status": "operational"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-AED-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.08,
+          52.25
+        ]
+      },
+      "properties": {
+        "name": "DEMO – Urząd",
+        "address": "Adres fikcyjny B",
+        "description": "Stanowisko ochrony",
+        "access": "restricted",
+        "hours": "Pn–Pt 08:00–16:00",
+        "status": "operational",
+        "verified": "2026-11-18",
+        "source": "demo-gmina-testowa",
+        "source_url": "http://127.0.0.1:8790/resources/40207,demo-gmina-testowa-aed-w-csv",
+        "provenance": [
+          {
+            "provider_id": "demo-gmina-testowa",
+            "provider_name": "DEMO – Gmina Testowa",
+            "resource_id": "40207",
+            "source_url": "http://127.0.0.1:8790/resources/40207,demo-gmina-testowa-aed-w-csv",
+            "verified": "2026-11-18",
+            "status": "operational"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-AED-03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.08,
+          52.26
+        ]
+      },
+      "properties": {
+        "name": "DEMO – Węzeł",
+        "address": "Adres fikcyjny C",
+        "description": "Przy stanowisku informacji",
+        "access": "unknown",
+        "hours": null,
+        "status": "unknown",
+        "verified": null,
+        "source": "demo-transport-testowy",
+        "source_url": "http://127.0.0.1:8790/resources/40208,demo-transport-testowy-aed-w-csv",
+        "provenance": [
+          {
+            "provider_id": "demo-transport-testowy",
+            "provider_name": "DEMO – Transport Testowy",
+            "resource_id": "40208",
+            "source_url": "http://127.0.0.1:8790/resources/40208,demo-transport-testowy-aed-w-csv",
+            "verified": null,
+            "status": "unknown"
+          }
+        ]
+      }
+    }
+  ]
+}
